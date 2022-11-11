@@ -41,6 +41,7 @@ namespace myProject.Controllers
             if(usuarioExiste == null) return NotFound("Usuário não encontrado.");
 
             usuarioExiste.Nome = usuario.Nome ?? usuarioExiste.Nome;
+            usuarioExiste.Cpf = usuario.Cpf ?? usuarioExiste.Cpf;
             usuarioExiste.DataNascimento = usuario.DataNascimento != new DateTime()
             ? usuario.DataNascimento : usuarioExiste.DataNascimento;
 

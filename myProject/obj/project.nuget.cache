@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5rHjizzxz9CZ9vBQnfy5o9CzT/9i9bv0CaiwWDZycdOVyp9n+jL8p95F441MloUn1xtb0NJpLgDEqMJ6TozyYQ==",
+  "dgSpecHash": "chH/LWV5LPQ2oaHNEDvK5MTAcGPcAH1fY1sV9OKAxv8qzB+4wZBM2qQAuwfZmLVs13k9caXJ8QX9aMiyQHd4Ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Remakker\\Desktop\\ENTREGA 6 C#\\myProject\\myProject.csproj",
+  "projectFilePath": "C:\\Users\\Remakker\\Desktop\\Api c#\\myProject\\myProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Remakker\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Remakker\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",

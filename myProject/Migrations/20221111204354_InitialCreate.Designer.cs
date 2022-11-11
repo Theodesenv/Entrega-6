@@ -11,7 +11,7 @@ using myProject.Database;
 namespace myProject.Migrations
 {
     [DbContext(typeof(UsuarioDbContext))]
-    [Migration("20221106210557_InitialCreate")]
+    [Migration("20221111204354_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,18 +25,26 @@ namespace myProject.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    b.Property<string>("Cpf")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("cpf");
 
                     b.Property<DateTime>("DataNascimento")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("datetime(6)")
+                        .HasColumnName("data_nascimento");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasColumnName("nome");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("usuario", (string)null);
                 });
 #pragma warning restore 612, 618
         }

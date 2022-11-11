@@ -26,6 +26,11 @@ namespace myProject.Migrations
                         .HasColumnType("int")
                         .HasColumnName("id");
 
+                    b.Property<string>("Cpf")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("cpf");
+
                     b.Property<DateTime>("DataNascimento")
                         .HasColumnType("datetime(6)")
                         .HasColumnName("data_nascimento");
@@ -37,7 +42,7 @@ namespace myProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ususario", (string)null);
+                    b.ToTable("usuario", (string)null);
                 });
 #pragma warning restore 612, 618
         }

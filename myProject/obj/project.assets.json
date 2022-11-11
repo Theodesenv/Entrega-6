@@ -1042,11 +1042,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Remakker\\Desktop\\ENTREGA 6 C#\\myProject\\myProject.csproj",
+      "projectUniqueName": "C:\\Users\\Remakker\\Desktop\\Api c#\\myProject\\myProject.csproj",
       "projectName": "myProject",
-      "projectPath": "c:\\Users\\Remakker\\Desktop\\ENTREGA 6 C#\\myProject\\myProject.csproj",
+      "projectPath": "C:\\Users\\Remakker\\Desktop\\Api c#\\myProject\\myProject.csproj",
       "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Remakker\\Desktop\\ENTREGA 6 C#\\myProject\\obj\\",
+      "outputPath": "C:\\Users\\Remakker\\Desktop\\Api c#\\myProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Remakker\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1117,7 +1117,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
